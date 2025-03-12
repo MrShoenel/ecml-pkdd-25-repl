@@ -1,3 +1,6 @@
 [submodule "src/cs-flow"]
 	path = src/repos/cs_flow
-	url = https://github.com/marco-rudolph/cs-flow.git
+	url = https://github.com/visual-inspection/cs-flow.git
+[submodule "src/repos/grounded_sam"]
+	path = src/repos/grounded_sam
+	url = https://github.com/visual-inspection/Grounded-Segment-Anything.git
