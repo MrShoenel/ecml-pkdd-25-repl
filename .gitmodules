@@ -4,3 +4,6 @@
 [submodule "src/repos/grounded_sam"]
 	path = src/repos/grounded_sam
 	url = https://github.com/visual-inspection/Grounded-Segment-Anything.git
+[submodule "src/repos/GLASS"]
+	path = src/repos/GLASS
+	url = https://github.com/visual-inspection/GLASS.git
