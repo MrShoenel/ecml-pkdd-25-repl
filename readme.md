@@ -28,10 +28,11 @@ Currently, we provide the following notebooks:
 * [**`CS-Flow/Center-embedded G-Link`**](./notebooks/cs-flow_ce-g-link.ipynb): Similar to the previous notebook, but uses the "center-embedded" G-Link dataset.
 * [**`CS-Flow/MVTec Cable`**](./notebooks/cs-flow_mvtec-cable.ipynb): In this notebook, we train a vanilla model against MVTec AD's cable category and check whether the model can handle rotated, but otherwise nominal, images.
 * [**`CS-Flow/MVTec Cable Rotated`**](./notebooks/cs-flow_mvtec-cable.ipynb): Similar to the previous notebook, but we train on rotated images of cables, too.
-* [**`GLASS/Center-embedded G-Link`**](#): Using GLASS instead of CS-Flow on our center-embedded G-Link dataset.
+
 
 
 Currently, we provide the following Scripts:
 
 * [**`preprocess_sam.py`**](./src/repos/grounded_sam/preprocess_sam.py): A command-line application that uses GroundedSAM. Using a single text prompt, it can segment entire datasets.
 * [**`preprocess_sam_with_masks.py`**](./src/repos/grounded_sam/preprocess_sam_with_masks.py): Like `process_sam.py`, but also saves foreground masks of the objects of interest.
+* [**`main_ce-g-link_E.py`**](./src/repos/glass/main_ce-g-link_E.py): A configurable command-line script for training GLASS using own datasets, currently adapted for the champion-approach using the G-Link dataset.
