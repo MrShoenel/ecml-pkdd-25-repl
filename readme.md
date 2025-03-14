@@ -1,4 +1,4 @@
-# Replication Package: `From Lab to Factory: Pitfalls and Guidelines for Self- and Unsupervised Defect Detection on Low-Quality`
+# Replication Package: `From Lab to Factory: Pitfalls and Guidelines for Self- and Unsupervised Defect Detection on Low-Quality Industrial Images`
 
 ## Initialize Submodules and Install Environment
 
