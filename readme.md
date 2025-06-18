@@ -16,6 +16,12 @@ conda env create -f environment.yml
 conda activate ecml25repl
 ```
 
+# Dataset
+
+The dataset for the blasted forged steel coupling links ("G-Links") is publicly available on Zenodo:
+
+Hönel, S. (2025). 3,992 Images of Blasted Forged Steel Coupling Links ("G-Links") Including Ground Truth Masks (1.0) [Data set]. European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECMLPKDD'25), Porto, Portugal. Zenodo. <https://doi.org/10.5281/zenodo.15693611>.
+
 # Notebooks and Scripts
 
 This repository is a collection of Jupyter notebooks and scripts that allow to replicate our reported results.
